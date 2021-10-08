@@ -1,0 +1,16 @@
+[alias]
+	unstage = reset HEAD --
+	https = remote set-url origin
+	proxyOff = config --global --unset http.proxy
+	proxyon = config --global http.proxy http://proxycachest.hewitt.com:3228
+[user]
+	email = bfuller123@gmail.com
+	name = Brett Fuller
+[url "https://"]
+	insteadOf = git://
+[core]
+	autocrlf = input
+[credential]
+	helper = osxkeychain
+[http]
+	proxy = http://proxycachest.hewitt.com:3228
